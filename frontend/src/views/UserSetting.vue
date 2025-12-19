@@ -79,7 +79,6 @@ const userForm = reactive({
   confirmPassword: ''
 })
 
-// 使用 computed 创建响应式的验证规则
 const userRules = {
   password: [
     { required: true, message: '请输入新密码', trigger: 'blur' },
